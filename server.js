@@ -17,6 +17,10 @@ app.get('/random', (req, res) => {
   res.sendFile(__dirname + '/public/random.html');
 });
 
+app.get('/api/all', (req, res) => {
+    res.json(exercises)
+})
+
 app.get('/api/random', (req, res) => {
   const bodyParts = Object.keys(exercises);
   const randomBodyPart =
