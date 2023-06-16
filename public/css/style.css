@@ -1,0 +1,56 @@
+@import 'normalize.css';
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #11191f;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(205, 16%, 77%);
+}
+
+header * {
+    font-size: 2.5rem;
+}
+
+nav,
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+span{
+    font-weight: 700;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav ul {
+    gap: 2rem;
+    
+}
+nav li i {
+    color: hsl(205, 16%, 77%);
+}
+
+main {
+    margin-top: 3rem;
+    padding: 0 2rem;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero-img img{
+    width: 80%;
+
+}
