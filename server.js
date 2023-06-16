@@ -17,6 +17,10 @@ app.get('/random', (req, res) => {
   res.sendFile(__dirname + '/public/random.html');
 });
 
+app.get('/docs', (req, res) => {
+    res.sendFile(__dirname + '/public/doc.html')
+})
+
 app.get('/api/all', (req, res) => {
     res.json(exercises)
 })
