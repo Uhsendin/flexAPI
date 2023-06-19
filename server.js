@@ -34,7 +34,6 @@ app.get('/api/random', (req, res) => {
     Math.random() * exercisesForSelectedBodyPart.length
   );
   const randomExercise = exercisesForSelectedBodyPart[randomExerciseIndex];
-
   const generatedRandomExercise = randomExercise;
 
   res.json({ bodyPart: randomBodyPart, exercise: generatedRandomExercise });
