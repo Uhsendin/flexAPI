@@ -313,7 +313,7 @@ const exercises = {
           "targetedMuscles": ["Quadriceps", "Hamstrings", "Glutes", "Calves"]
         },
         {
-          "name": "High-Intensity Interval Training (HIIT)",
+          "name": "High-Intensity Interval Training - HIIT",
           "instructions": "Perform a series of high-intensity exercises (e.g., burpees, mountain climbers, high knees) for a short duration (e.g., 20-30 seconds), followed by a brief rest period (e.g., 10-15 seconds). Repeat this cycle for a set number of rounds or time.",
           "targetedMuscles": ["Full body cardiovascular exercise"]
         },
