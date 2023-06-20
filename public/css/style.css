@@ -80,7 +80,7 @@ footer li {
     padding: 2rem 0 2rem 0
 }
 
-.github:hover {
+.github a:hover{
     cursor: pointer;
     color: hsl(210, 8%, 91%);
 }

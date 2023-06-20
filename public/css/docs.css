@@ -1,43 +1,153 @@
 * {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    list-style: none;
-  }
-  
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1a1a1d;
-  }
-  
-  header * {
-    font-size: 2.5rem;
-  }
-  
-  nav,
-  nav ul {
-    display: flex;
-    margin: 0;
-  }
-  
-  nav span {
-    font-weight: 700;
-    color: hsl(205, 20%, 84%);
-  
-  }
-  
-  nav {
-    justify-content: space-between;
-    padding: 2rem;
-  }
-  
-  nav ul {
-    gap: 2rem;
-  }
-  nav li i {
-    color: #c3073f;
-  }
+  font-size: 62.5%;
+  box-sizing: border-box;
+  list-style: none;
+}
 
-  pre code {
-   display: block;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a1d;
+}
+
+header * {
+  font-size: 2.5rem;
+}
+
+nav,
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav span {
+  font-weight: 700;
+  color: hsl(205, 20%, 84%);
+}
+
+nav {
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+nav ul {
+  gap: 2rem;
+}
+nav li i {
+  color: #c3073f;
+}
+
+.docs {
+  padding: 0 2rem;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  color: hsl(205, 20%, 94%);
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: hsl(205, 20%, 94%);
+}
+
+p,
+li {
+  font-size: 1.8rem;
+  color: hsl(205, 20%, 84%);
+  line-height: 1.5;
+}
+
+.response .code-container {
+  overflow: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  color: hsl(205, 20%, 84%);
+  line-height: 1.5;
+  font-size: 1.4rem;
+  background-color: #2b2b2c;
+  border-radius: 0.5rem;
+  font-family: 'Courier New', monospace;
+  display: block;
+  margin: 0;
+  padding: 2rem;
+}
+
+code span {
+    font-size: inherit;
+    color: #c3073f;
+    font-weight: bold;
+}
+
+.endpoints {
+  overflow: auto;
+}
+.endpoints ul {
+  padding: 0;
+}
+
+.endpoints u {
+  font-size: inherit;
+  color: hsl(205, 20%, 94%);
+}
+
+.endpoints code {
+  padding: 0.7rem;
+  line-height: normal;
+}
+
+blockquote {
+  margin: 0;
+  padding: 1em;
+  background-color: #2b2b2c;
+  border-left: 4px solid #c3073f;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  border-radius: 0.5rem;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+.support {
+    padding-bottom: 2rem;
+}
+
+.support a {
+  
+  text-decoration: none;
+  color: #c3073f;
+}
+
+.support a,
+footer a {
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.support a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 0 2rem;
+}
+
+footer p:first-child {
+    border-top: solid 1px #c3073f;
+    padding-top: 2rem;
+}
+
+footer a {    
+    color: #c3073f;
+}
+

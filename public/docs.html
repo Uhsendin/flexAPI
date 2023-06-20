@@ -39,10 +39,7 @@
             collection of targeted exercises. The API provides a structured
             format for accessing exercise information through keyed objects.
             Each object includes details such as body part, exercise name,
-            instructions, and targeted muscles. By leveraging the FlexAPI,
-            developers can easily retrieve accurate and up-to-date exercise data
-            to enhance their fitness applications, training platforms, or
-            workout tools.
+            instructions, and targeted muscles.
           </p>
         </section>
         <section class="authentication endpoint-section">
@@ -55,15 +52,13 @@
         </section>
         <section class="response endpoint-section">
           <h2>API response format</h2>
-          <pre>
-                <code>
-                    "Chest": [
-                    {
-                      "name": "Push-Ups",
-                      "instructions": "Assume a high plank position with your hands slightly wider than shoulder-width apart. Lower your body until your chest almost touches the ground, then push yourself back up to the starting position.",
-                      "targetedMuscles": ["Chest", "Shoulders", "Triceps"]
-                    }
-                </code>
+          <pre class="code-container">
+                <code>"Chest": [
+{
+"name": "Push-Ups",
+"instructions": "Assume a high plank position with your hands slightly wider than shoulder-width apart. Lower your body until your chest almost touches the ground, then push yourself back up to the starting position.",
+"targetedMuscles": ["Chest", "Shoulders", "Triceps"]
+},</code>
             </pre>
         </section>
         <section class="endpoints endpoint-section">
@@ -87,31 +82,36 @@
           <h3>Fetch a random exercise</h3>
           <pre>
                     <code>
-                        GET https://localhost:8000/api/random
+GET
+https://localhost:8000/api/random
                     </code>
                 </pre>
           <h3>Fetch all exercises</h3>
           <pre>
                     <code>
-                        GET https://localhost:8000/api/all
+GET 
+https://localhost:8000/api/all
                     </code>
                 </pre>
           <h3>Fetch all bodyParts</h3>
           <pre>
                     <code>
-                        GET https://localhost:8000/api/bodyParts
+GET 
+https://localhost:8000/api/bodyParts
                     </code>
                 </pre>
           <h3>Fetch all exercises names</h3>
           <pre>
                     <code>
-                        GET https://localhost:8000/api/exercises
+GET 
+https://localhost:8000/api/exercises
                     </code>
                 </pre>
-          <h3>Fetch a exercises by bodyPart</h3>
+          <h3>Fetch exercises by bodyPart</h3>
           <pre>
                     <code>
-                        GET https://localhost:8000/api/${bodyPart}
+GET 
+https://localhost:8000/api/<span>${bodyPart}</span>
                     </code>
                 </pre>
         </section>
@@ -139,12 +139,23 @@
           <p>
             If you have any questions or encounter issues with the API, we're
             here to assist you! Please don't hesitate to reach out to us through
-            GitHub. We value your feedback and are committed to providing the
+            <a target="_blank" href="https://github.com/Uhsendin">GitHub</a>. We value your feedback and are committed to providing the
             support you need.
           </p>
         </section>
       </section>
     </main>
+    <footer>
+  <div class="footer-content">
+    <p>
+      &copy; 2023 Brandon Rodriguez. All rights reserved.
+    </p>
+    <p>
+      GitHub: <a href="https://github.com/your-username">Uhsendin</a>
+    </p>
+  </div>
+</footer>
+
     <script
       src="https://kit.fontawesome.com/885f3042d8.js"
       crossorigin="anonymous"
