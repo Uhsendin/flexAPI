@@ -20,7 +20,7 @@ app.get('/random', (req, res) => {
 });
 
 app.get('/docs', (req, res) => {
-    res.sendFile(__dirname + '/public/doc.html')
+    res.sendFile(__dirname + '/public/docs.html')
 })
 
 app.get('/api/all', (req, res) => {

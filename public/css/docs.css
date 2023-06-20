@@ -1,0 +1,43 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1d;
+  }
+  
+  header * {
+    font-size: 2.5rem;
+  }
+  
+  nav,
+  nav ul {
+    display: flex;
+    margin: 0;
+  }
+  
+  nav span {
+    font-weight: 700;
+    color: hsl(205, 20%, 84%);
+  
+  }
+  
+  nav {
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  nav ul {
+    gap: 2rem;
+  }
+  nav li i {
+    color: #c3073f;
+  }
+
+  pre code {
+   display: block;
+  }

@@ -45,16 +45,6 @@ main {
   margin-top: 3rem;
 }
 
-.hero-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-img img {
-  width: 80%;
-}
-
 h1 {
   font-size: 3rem;
   text-align: center;
@@ -66,8 +56,6 @@ p {
   font-size: 1.8rem;
   color: hsl(205, 20%, 84%);
 }
-
-
 
 footer ul * {
     font-size: 1.6rem;
