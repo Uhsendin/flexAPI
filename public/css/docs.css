@@ -4,6 +4,7 @@
   list-style: none;
 }
 
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #1a1a1d;
@@ -22,6 +23,7 @@ nav ul {
 nav span {
   font-weight: 700;
   color: hsl(205, 20%, 84%);
+
 }
 
 nav {
@@ -52,7 +54,7 @@ h3 {
 }
 
 p,
-li {
+.docs li {
   font-size: 1.8rem;
   color: hsl(205, 20%, 84%);
   line-height: 1.5;
@@ -151,3 +153,30 @@ footer a {
     color: #c3073f;
 }
 
+
+
+
+@media (min-width:640px) {
+  nav * {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 890px) {
+  .container{
+    padding: 0 10rem;
+  }
+
+  nav {
+    padding: 2rem 0;
+  }
+  nav * {
+    font-size: 3.5rem;
+  }
+
+  body {
+    padding: 0 10rem;
+  }
+
+
+}
